@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bruno Mariani <bruno0907@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src",
+    "start": "node ./src"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
